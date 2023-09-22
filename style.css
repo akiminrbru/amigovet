@@ -1,0 +1,325 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+.container {
+	max-width: 1250px;
+	margin: 0 auto;
+	padding: 70px 50px;
+}
+
+/* Онлайн консультация */
+
+.consultationHeader {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 22px;
+}
+
+.consultationHeader img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.consultationHeader a {
+	padding: 12px 14px;
+	border-radius: 5px;
+	background: #6ab165;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+.consultationAbout h2 {
+	margin-bottom: 16px;
+	color: #3b3f4a;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.consultationAbout p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 16px;
+}
+
+.consultationAbout p:last-child {
+	margin-bottom: 0;
+}
+
+.consultationAbout {
+	margin-bottom: 50px;
+}
+
+.consultationAbout h5 {
+	margin-bottom: 22px;
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.consultationAbout ul,
+.consultationHow ul {
+	margin-bottom: 16px;
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+	list-style: none;
+}
+
+.consultationAbout li,
+.consultationHow li {
+	position: relative;
+	padding-left: 20px;
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.consultationAbout li::before,
+.consultationHow li::before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	left: 0;
+	top: 8px;
+	background-color: #e4b556;
+}
+
+.consultationPrice {
+	margin-bottom: 80px;
+}
+
+.consultationPrice h2 {
+	text-align: center;
+	margin-bottom: 16px;
+	color: #3b3f4a;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.consultationPrice table,
+.coldanimalPrice table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.consultationPrice table thead tr,
+.coldanimalPrice table thead tr {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+.consultationPrice table tbody tr,
+.coldanimalPrice table tbody tr {
+	border-bottom: 1px solid #eee;
+}
+
+.consultationPrice table thead td,
+.coldanimalPrice table thead td {
+	padding: 9px 9px 9px 3px;
+	color: #3b3f4a;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.consultationPrice table tbody td,
+.coldanimalPrice table tbody td {
+	padding: 9px 9px 9px 3px;
+	color: #3b3f4a;
+	font-size: 15px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+
+.consultationHow {
+	margin-bottom: 66px;
+	display: flex;
+	gap: 38px;
+	align-items: end;
+}
+
+.consultationHow__left {
+	max-width: 665px;
+}
+
+.consultationHow__right img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.consultationHow h2 {
+	margin-bottom: 16px;
+	color: #3b3f4a;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.consultationHow p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 32px;
+}
+
+.consultationHow p:last-child {
+	margin-bottom: 0;
+}
+
+.consultationHow h5 {
+	color: #3b3f4a;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 22px;
+}
+
+.consultationHow ul {
+	list-style: none;
+}
+
+.consultationWhy {
+	background: #f0f0f0;
+	padding-top: 53px;
+	padding-bottom: 75px;
+}
+
+.consultationWhy h2 {
+	max-width: 371px;
+	margin-bottom: 60px;
+	color: #3b3f4a;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.consultationWhy__list {
+	display: flex;
+	gap: 72px;
+	flex-wrap: wrap;
+	gap: 72px 217px;
+}
+
+.consultationWhy__card {
+	display: flex;
+	align-items: start;
+	gap: 29px;
+	max-width: 438px;
+}
+
+.consultationWhy__card h4 {
+	margin-bottom: 9px;
+	color: #3b3f4a;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.consultationWhy__card p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+.consultationWhy .container {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.consultationUnder {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-image: url("assets/dog2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.consultationUnder .container {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.consultationUnder h2 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-bottom: 22px;
+	max-width: 339px;
+}
+
+.consultationUnder li {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.consultationUnder ul {
+	margin-bottom: 22px;
+}
+
+.consultationUnder a {
+	padding: 14px 28px;
+	border-radius: 50px;
+	background: #e4b556;
+	box-shadow: 0px 4px 8px 0px rgba(115, 79, 22, 0.25);
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	display: inline-block;
+}
+
+@media screen and (max-width: 1250px) {
+	.consultationHow {
+		flex-direction: column;
+		align-items: start;
+	}
+
+	.consultationWhy__card {
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		padding: 60px 20px;
+	}
+
+	.consultationUnder ul {
+		padding-left: 20px;
+	}
+}
+
+/* Лечение холоднокровных животных */
+
+.coldanimalPrice {
+	margin-bottom: 80px;
+}
+
+.coldanimalHeader img {
+	margin-bottom: 50px;
+}
+
+.coldanimalHeader p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+}
