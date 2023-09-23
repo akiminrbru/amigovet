@@ -71,7 +71,9 @@ body {
 }
 
 .consultationAbout ul,
-.consultationHow ul {
+.consultationHow ul,
+.coldanimalSymptoms__left ul,
+.coldanimalHeal__right ul {
 	margin-bottom: 16px;
 	color: #3b3f4a;
 	font-size: 16px;
@@ -80,16 +82,21 @@ body {
 }
 
 .consultationAbout li,
-.consultationHow li {
+.consultationHow li,
+.coldanimalSymptoms__left li,
+.coldanimalHeal__right li {
 	position: relative;
 	padding-left: 20px;
 	color: #3b3f4a;
 	font-size: 16px;
 	font-weight: 400;
+	margin-bottom: 5px;
 }
 
 .consultationAbout li::before,
-.consultationHow li::before {
+.consultationHow li::before,
+.coldanimalSymptoms__left li::before,
+.coldanimalHeal__right li::before {
 	content: "";
 	position: absolute;
 	display: block;
@@ -314,7 +321,14 @@ body {
 	margin-bottom: 80px;
 }
 
+.coldanimalHeader {
+	margin-bottom: 60px;
+}
+
 .coldanimalHeader img {
+	display: block;
+	width: 100%;
+	height: auto;
 	margin-bottom: 50px;
 }
 
@@ -322,4 +336,110 @@ body {
 	color: #3b3f4a;
 	font-size: 16px;
 	font-weight: 400;
+}
+
+.coldanimalSymptoms {
+	margin-bottom: 50px;
+}
+
+.coldanimalSymptoms h2 {
+	margin-bottom: 16px;
+	color: #3b3f4a;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.coldanimalSymptoms p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 11px;
+}
+
+.coldanimalSymptoms__content {
+	display: flex;
+	gap: 66px;
+}
+
+.coldanimalSymptoms__left {
+	max-width: 614px;
+}
+
+.coldanimalSymptoms__left h5 {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	margin-top: 21px;
+}
+
+.coldanimalSymptoms__right img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.coldanimalBanner {
+	background: #e4b556;
+	padding: 9px 12px;
+	margin-bottom: 62px;
+}
+
+.coldanimalBanner__inner {
+	border: 1px dashed #3b3f4a;
+	padding: 43px 31px 42px 23px;
+}
+
+.coldanimalBanner__inner p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.coldanimalHeal {
+	margin-bottom: 65px;
+}
+
+.coldanimalHeal__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 58px;
+}
+
+.coldanimalHeal__left img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.coldanimalHeal__right {
+	max-width: 551px;
+}
+
+.coldanimalHeal__right h2 {
+	color: #3b3f4a;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 19px;
+}
+
+.coldanimalHeal__right p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 22px;
+}
+
+.coldanimalHeal p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.coldanimalHeal h5 {
+	margin: 16px 0;
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 700;
 }
