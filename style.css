@@ -73,7 +73,8 @@ body {
 .consultationAbout ul,
 .consultationHow ul,
 .coldanimalSymptoms__left ul,
-.coldanimalHeal__right ul {
+.coldanimalHeal__right ul,
+.gastro ul {
 	margin-bottom: 16px;
 	color: #3b3f4a;
 	font-size: 16px;
@@ -84,7 +85,8 @@ body {
 .consultationAbout li,
 .consultationHow li,
 .coldanimalSymptoms__left li,
-.coldanimalHeal__right li {
+.coldanimalHeal__right li,
+.gastro li {
 	position: relative;
 	padding-left: 20px;
 	color: #3b3f4a;
@@ -96,7 +98,8 @@ body {
 .consultationAbout li::before,
 .consultationHow li::before,
 .coldanimalSymptoms__left li::before,
-.coldanimalHeal__right li::before {
+.coldanimalHeal__right li::before,
+.gastro li::before {
 	content: "";
 	position: absolute;
 	display: block;
@@ -121,24 +124,28 @@ body {
 }
 
 .consultationPrice table,
-.coldanimalPrice table {
+.coldanimalPrice table,
+.gastroPrice table {
 	width: 100%;
 	border-collapse: collapse;
 }
 
 .consultationPrice table thead tr,
-.coldanimalPrice table thead tr {
+.coldanimalPrice table thead tr,
+.gastroPrice table thead tr {
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 }
 
 .consultationPrice table tbody tr,
-.coldanimalPrice table tbody tr {
+.coldanimalPrice table tbody tr,
+.gastroPrice table tbody tr {
 	border-bottom: 1px solid #eee;
 }
 
 .consultationPrice table thead td,
-.coldanimalPrice table thead td {
+.coldanimalPrice table thead td,
+.gastroPrice table thead td {
 	padding: 9px 9px 9px 3px;
 	color: #3b3f4a;
 	font-size: 15px;
@@ -147,7 +154,8 @@ body {
 }
 
 .consultationPrice table tbody td,
-.coldanimalPrice table tbody td {
+.coldanimalPrice table tbody td,
+.gastroPrice table tbody td {
 	padding: 9px 9px 9px 3px;
 	color: #3b3f4a;
 	font-size: 15px;
@@ -442,4 +450,245 @@ body {
 	color: #3b3f4a;
 	font-size: 16px;
 	font-weight: 700;
+}
+
+.BannerForm {
+	padding-top: 48px;
+	padding-bottom: 90px;
+	background-image: url("assets/coldanimal4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.BannerForm .container {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.BannerForm h2 {
+	max-width: 426px;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-bottom: 18px;
+}
+
+.BannerForm p {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 30px;
+	max-width: 355px;
+}
+
+.BannerForm form {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 35px;
+}
+
+.BannerForm form input {
+	border-radius: 3px;
+	background: #fff;
+	padding: 13px 176px 13px 20px;
+	color: #8e8e8e;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	outline: none;
+	border: 0;
+}
+
+.BannerForm button {
+	border-radius: 50px;
+	background: #e4b556;
+	box-shadow: 0px 4px 8px 0px rgba(115, 79, 22, 0.25);
+	border: 0;
+	padding: 15px 32px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.gastroPrice {
+	margin-bottom: 77px;
+}
+
+.gastroHeader {
+	margin-bottom: 50px;
+}
+
+.gastroHeader img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.gastroHeader p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.gastroHeader p:last-child {
+	margin-bottom: 0;
+}
+
+.gastroSymptoms {
+	margin-bottom: 30px;
+	display: flex;
+	gap: 60px;
+}
+
+.gastroSymptoms__left {
+	max-width: 480px;
+}
+
+.gastroSymptoms__left h2 {
+	color: #3b3f4a;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 19px;
+}
+
+.gastroSymptoms__left p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 32px;
+}
+
+.gastroSymptoms__left h5 {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 22px;
+}
+
+.gastroSymptoms__right img {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 467px;
+}
+
+.gastroBanner {
+	background: #e4b556;
+	padding: 9px 12px;
+	margin-bottom: 58px;
+}
+
+.gastroBanner__inner {
+	padding: 26px 64px 37px 23px;
+	border: 1px dashed #3b3f4a;
+}
+
+.gastroBanner__inner p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.gastroSymptoms2 {
+	margin-bottom: 70px;
+}
+
+.gastroSymptoms2__content {
+	display: flex;
+	gap: 20px;
+	margin-bottom: 44px;
+	align-items: center;
+}
+
+.gastroSymptoms2__left img {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 567px;
+}
+
+.gastroSymptoms2__right h3 {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 24px;
+}
+
+.gastroHeal h2 {
+	color: #3b3f4a;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.gastroHeal p {
+	color: #3b3f4a;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px) {
+	.gastroSymptoms {
+		flex-direction: column;
+	}
+
+	.gastroSymptoms2__content {
+		flex-direction: column-reverse;
+		align-items: start;
+	}
+
+	.gastroBanner__inner {
+		padding: 15px;
+	}
+
+	.coldanimalHeal__top {
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	.coldanimalBanner__inner {
+		padding: 15px;
+	}
+
+	.coldanimalSymptoms__content {
+		flex-direction: column;
+		gap: 30px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.BannerForm {
+		background-position: center;
+	}
+	.BannerForm form {
+		align-items: center;
+	}
+
+	.BannerForm form input {
+		width: 100%;
+		padding: 13px 20px;
+	}
+
+	.BannerForm h2 {
+		text-align: center;
+	}
+
+	.BannerForm p {
+		text-align: center;
+	}
+
+	.consultationWhy__card {
+		gap: 10px;
+	}
+
+	.gastroSymptoms {
+		gap: 30px;
+	}
 }
