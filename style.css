@@ -6,6 +6,7 @@
 
 body {
 	font-family: "Open Sans", sans-serif;
+	background: #f9f9fa;
 }
 
 .container {
@@ -150,7 +151,13 @@ body {
 	color: #3b3f4a;
 	font-size: 15px;
 	font-weight: 600;
-	text-transform: capitalize;
+}
+
+.consultationPrice table thead td:last-child,
+.coldanimalPrice table thead td:last-child,
+.gastroPrice table thead td:last-child {
+	float: right;
+	padding-right: 58px;
 }
 
 .consultationPrice table tbody td,
@@ -160,7 +167,13 @@ body {
 	color: #3b3f4a;
 	font-size: 15px;
 	font-weight: 400;
-	text-transform: capitalize;
+}
+
+.consultationPrice table tbody td:last-child,
+.gastroPrice table tbody td:last-child,
+.coldanimalPrice table tbody td:last-child {
+	float: right;
+	padding-right: 58px;
 }
 
 .consultationHow {
@@ -455,9 +468,11 @@ body {
 .BannerForm {
 	padding-top: 48px;
 	padding-bottom: 90px;
-	background-image: url("assets/coldanimal4.jpg");
+	background-image: url("assets/coldanimal4-2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	di
 }
 
 .BannerForm .container {
@@ -690,5 +705,31 @@ body {
 
 	.gastroSymptoms {
 		gap: 30px;
+	}
+
+	.consultationPrice table thead td,
+	.coldanimalPrice table thead td,
+	.gastroPrice table thead td {
+		font-size: 14px;
+	}
+
+	.consultationPrice table tbody td,
+	.coldanimalPrice table tbody td,
+	.gastroPrice table tbody td {
+		font-size: 14px;
+	}
+
+	.consultationPrice table thead td:last-child,
+	.coldanimalPrice table thead td:last-child,
+	.gastroPrice table thead td:last-child {
+		padding-right: 9px;
+		float: none;
+	}
+
+	.consultationPrice table tbody td:last-child,
+	.gastroPrice table tbody td:last-child,
+	.coldanimalPrice table tbody td:last-child {
+		padding-right: 9px;
+		float: none;
 	}
 }
